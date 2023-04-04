@@ -47,7 +47,7 @@ afterEvaluate {
         publishing.publications.create(variant.name, MavenPublication) {
             from components.findByName(variant.name)
             groupId("br.com.example.cff.calc")
-            artifactId("calc-lib-android")
+            artifactId("calclib")
             version("0.1.0")
         }
     }
