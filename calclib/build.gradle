@@ -48,7 +48,7 @@ afterEvaluate {
             from components.findByName(variant.name)
             groupId("br.com.example.cff.calc")
             artifactId("calclib")
-            version("0.1.0")
+            version("0.1.1")
         }
     }
 }
