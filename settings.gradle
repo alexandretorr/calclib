@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Calc"
-include ':app'
+// include ':app'
 include ':calclib'
